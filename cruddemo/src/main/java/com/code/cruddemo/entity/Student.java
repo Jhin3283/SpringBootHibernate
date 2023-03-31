@@ -1,8 +1,10 @@
 package com.code.cruddemo.entity;
 
 import jakarta.persistence.*;
+import lombok.NoArgsConstructor;
 
 @Entity
+@NoArgsConstructor
 @Table(name="student")
 public class Student {
     @Id
